@@ -34,12 +34,6 @@
   <url>
     <loc>https://example.com/blog/react-performance/</loc><lastmod>2024-11-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://example.com/tags/api/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/e-commerce/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/projects/ecommerce-platform/</loc><lastmod>2024-11-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://example.com/tags/deployment/</loc><lastmod>2024-10-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/tags/devops/</loc><lastmod>2024-10-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -47,22 +41,6 @@
     <loc>https://example.com/tags/docker/</loc><lastmod>2024-10-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/blog/docker-deployment/</loc><lastmod>2024-10-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/full-stack/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/next.js/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/productivity/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/real-time/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/projects/task-manager/</loc><lastmod>2024-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/api-integration/</loc><lastmod>2024-06-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/pwa/</loc><lastmod>2024-06-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/projects/weather-app/</loc><lastmod>2024-06-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
