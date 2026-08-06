@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full-Stack | </title>
+    <link>https://example.com/tags/full-stack/</link>
+      <atom:link href="https://example.com/tags/full-stack/index.xml" rel="self" type="application/rss+xml" />
+    <description>Full-Stack</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>Full-Stack</title>
+      <link>https://example.com/tags/full-stack/</link>
+    </image>
+    
+    <item>
+      <title>TaskFlow - Project Management Tool</title>
+      <link>https://example.com/projects/task-manager/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/task-manager/</guid>
+      <description>&lt;p&gt;A modern, intuitive task management tool built for remote teams. Features real-time collaboration, customizable workflows, and beautiful UI.&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;TaskFlow was born out of frustration with existing project management tools being either too complex or lacking essential features. I built a solution that&amp;rsquo;s powerful yet simple to use.&lt;/p&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;h3 id=&#34;core-functionality&#34;&gt;Core Functionality&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kanban Boards&lt;/strong&gt; - Drag-and-drop interface for visual task management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Sync&lt;/strong&gt; - See changes instantly as team members update tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Views&lt;/strong&gt; - Switch between Kanban, List, and Calendar views&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task Details&lt;/strong&gt; - Rich descriptions, attachments, comments, and checklists&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Labels &amp;amp; Filters&lt;/strong&gt; - Organize and find tasks quickly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team Workspaces&lt;/strong&gt; - Separate spaces for different projects/teams&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@Mentions&lt;/strong&gt; - Tag team members in comments for notifications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Activity Feed&lt;/strong&gt; - Track all changes and updates&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Permissions&lt;/strong&gt; - Role-based access control (admin, member, viewer)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;productivity&#34;&gt;Productivity&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keyboard Shortcuts&lt;/strong&gt; - Power user features for faster navigation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Templates&lt;/strong&gt; - Reusable board templates for common workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Due Dates &amp;amp; Reminders&lt;/strong&gt; - Never miss a deadline&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Tracking&lt;/strong&gt; - Built-in timer for task duration tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-implementation&#34;&gt;Technical Implementation&lt;/h2&gt;
+&lt;h3 id=&#34;real-time-features&#34;&gt;Real-Time Features&lt;/h3&gt;
+&lt;p&gt;Used WebSockets (Socket.io) for instant updates across all connected clients. Implemented optimistic UI updates for snappy user experience even before server confirmation.&lt;/p&gt;
+&lt;h3 id=&#34;drag--drop&#34;&gt;Drag &amp;amp; Drop&lt;/h3&gt;
+&lt;p&gt;Built custom drag-and-drop using react-beautiful-dnd with smooth animations and mobile touch support.&lt;/p&gt;
+&lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented virtual scrolling for boards with 1000+ tasks&lt;/li&gt;
+&lt;li&gt;Optimized database queries with proper indexing&lt;/li&gt;
+&lt;li&gt;Used Redis for session storage and caching&lt;/li&gt;
+&lt;li&gt;Image optimization with Next.js Image component&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;authentication&#34;&gt;Authentication&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Secure auth with NextAuth.js&lt;/li&gt;
+&lt;li&gt;Support for email/password and OAuth (Google, GitHub)&lt;/li&gt;
+&lt;li&gt;JWT tokens with automatic refresh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;
+&lt;p&gt;Built as a modern monolith with Next.js API routes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;┌─────────────┐     ┌──────────────┐     ┌─────────────┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│  Next.js    │────▶│   API Routes │────▶│ PostgreSQL  │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│  (React)    │     │  (REST/WS)   │     │  + Prisma   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└─────────────┘     └──────────────┘     └─────────────┘
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       │                    │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       │             ┌──────▼───────┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       └────────────▶│  Socket.io   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                     │  (Real-Time) │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                     └──────────────┘
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;challenges-solved&#34;&gt;Challenges Solved&lt;/h2&gt;
+&lt;h3 id=&#34;real-time-conflicts&#34;&gt;Real-Time Conflicts&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Problem&lt;/strong&gt;: Multiple users editing same task simultaneously&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Implemented operational transformation (OT) for conflict resolution and last-write-wins strategy with conflict notifications&lt;/p&gt;
+&lt;h3 id=&#34;mobile-performance&#34;&gt;Mobile Performance&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Problem&lt;/strong&gt;: Drag-and-drop laggy on mobile devices&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Optimized touch handlers and reduced re-renders using React.memo and useMemo&lt;/p&gt;
+&lt;h3 id=&#34;scale&#34;&gt;Scale&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Problem&lt;/strong&gt;: Growing user base causing performance issues&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Added Redis caching layer and optimized database queries, reducing response time by 65%&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📈 &lt;strong&gt;Users&lt;/strong&gt;: 2000+ active users within 3 months&lt;/li&gt;
+&lt;li&gt;⭐ &lt;strong&gt;Product Hunt&lt;/strong&gt;: Featured and received 200+ upvotes&lt;/li&gt;
+&lt;li&gt;🚀 &lt;strong&gt;Performance&lt;/strong&gt;: Sub-100ms API response times&lt;/li&gt;
+&lt;li&gt;💯 &lt;strong&gt;Uptime&lt;/strong&gt;: 99.8% uptime since launch&lt;/li&gt;
+&lt;li&gt;📱 &lt;strong&gt;Mobile&lt;/strong&gt;: 40% of traffic from mobile devices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Frontend&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Next.js 14 (App Router)&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Tailwind CSS&lt;/li&gt;
+&lt;li&gt;Framer Motion (animations)&lt;/li&gt;
+&lt;li&gt;React Beautiful DnD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Backend&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Next.js API Routes&lt;/li&gt;
+&lt;li&gt;Prisma ORM&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;li&gt;Socket.io for WebSockets&lt;/li&gt;
+&lt;li&gt;NextAuth.js for authentication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Infrastructure&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vercel for hosting&lt;/li&gt;
+&lt;li&gt;Supabase for PostgreSQL&lt;/li&gt;
+&lt;li&gt;Redis Cloud for caching&lt;/li&gt;
+&lt;li&gt;AWS S3 for file storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;user-feedback&#34;&gt;User Feedback&lt;/h2&gt;
+
+
+
+  
+  &lt;blockquote class=&#34;border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6&#34;&gt;
+    &lt;p&gt;&amp;ldquo;Finally, a task manager that doesn&amp;rsquo;t get in my way. The real-time updates are magical!&amp;rdquo; - Sarah K., Product Manager&lt;/p&gt;
+
+  &lt;/blockquote&gt;
+
+
+
+
+  
+  &lt;blockquote class=&#34;border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6&#34;&gt;
+    &lt;p&gt;&amp;ldquo;We switched from Trello and haven&amp;rsquo;t looked back. TaskFlow is faster and more intuitive.&amp;rdquo; - Mike R., Engineering Lead&lt;/p&gt;
+
+  &lt;/blockquote&gt;
+
+&lt;h2 id=&#34;open-source&#34;&gt;Open Source&lt;/h2&gt;
+&lt;p&gt;TaskFlow is open source! Contributions welcome.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;License&lt;/strong&gt;: MIT&lt;br&gt;
+&lt;strong&gt;GitHub&lt;/strong&gt;: 
+&lt;br&gt;
+&lt;strong&gt;Demo&lt;/strong&gt;: 
+&lt;/p&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next&lt;/h2&gt;
+&lt;p&gt;Currently working on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mobile apps (iOS &amp;amp; Android)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Gantt chart view&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Advanced reporting and analytics&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; API for third-party integrations&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Offline mode support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Status&lt;/strong&gt;: ✅ Live &amp;amp; Actively Maintained&lt;br&gt;
+&lt;strong&gt;Try it&lt;/strong&gt;: 
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
