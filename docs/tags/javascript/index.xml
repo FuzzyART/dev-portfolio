@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript | </title>
-    <link>https://example.com/tags/javascript/</link>
-      <atom:link href="https://example.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fuzzyart.github.io/dev-portfolio/tags/javascript/</link>
+      <atom:link href="https://fuzzyart.github.io/dev-portfolio/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <description>JavaScript</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <url>https://fuzzyart.github.io/dev-portfolio/media/icon_hu_eee4a95885829ab2.png</url>
       <title>JavaScript</title>
-      <link>https://example.com/tags/javascript/</link>
+      <link>https://fuzzyart.github.io/dev-portfolio/tags/javascript/</link>
     </image>
     
     <item>
       <title>React Performance Optimization: A Practical Guide</title>
-      <link>https://example.com/blog/react-performance/</link>
+      <link>https://fuzzyart.github.io/dev-portfolio/blog/react-performance/</link>
       <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/react-performance/</guid>
+      <guid>https://fuzzyart.github.io/dev-portfolio/blog/react-performance/</guid>
       <description>&lt;p&gt;React apps can become slow as they grow. This guide covers practical techniques to identify bottlenecks and optimize performance, backed by real-world examples.&lt;/p&gt;
 &lt;h2 id=&#34;common-performance-issues&#34;&gt;Common Performance Issues&lt;/h2&gt;
 &lt;p&gt;Before optimizing, measure. Use React DevTools Profiler to identify:&lt;/p&gt;

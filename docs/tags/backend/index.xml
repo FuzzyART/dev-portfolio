@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backend | </title>
-    <link>https://example.com/tags/backend/</link>
-      <atom:link href="https://example.com/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fuzzyart.github.io/dev-portfolio/tags/backend/</link>
+      <atom:link href="https://fuzzyart.github.io/dev-portfolio/tags/backend/index.xml" rel="self" type="application/rss+xml" />
     <description>Backend</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <url>https://fuzzyart.github.io/dev-portfolio/media/icon_hu_eee4a95885829ab2.png</url>
       <title>Backend</title>
-      <link>https://example.com/tags/backend/</link>
+      <link>https://fuzzyart.github.io/dev-portfolio/tags/backend/</link>
     </image>
     
     <item>
       <title>Building a Production-Ready REST API with Node.js and Express</title>
-      <link>https://example.com/blog/building-rest-api/</link>
+      <link>https://fuzzyart.github.io/dev-portfolio/blog/building-rest-api/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/building-rest-api/</guid>
+      <guid>https://fuzzyart.github.io/dev-portfolio/blog/building-rest-api/</guid>
       <description>&lt;p&gt;Building a REST API seems straightforward until you need to handle authentication, validation, error handling, and documentation. This guide covers best practices for production-ready APIs.&lt;/p&gt;
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;

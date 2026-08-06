@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DevOps | </title>
-    <link>https://example.com/tags/devops/</link>
-      <atom:link href="https://example.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fuzzyart.github.io/dev-portfolio/tags/devops/</link>
+      <atom:link href="https://fuzzyart.github.io/dev-portfolio/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <description>DevOps</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
+      <url>https://fuzzyart.github.io/dev-portfolio/media/icon_hu_eee4a95885829ab2.png</url>
       <title>DevOps</title>
-      <link>https://example.com/tags/devops/</link>
+      <link>https://fuzzyart.github.io/dev-portfolio/tags/devops/</link>
     </image>
     
     <item>
       <title>Docker Deployment Guide: From Development to Production</title>
-      <link>https://example.com/blog/docker-deployment/</link>
+      <link>https://fuzzyart.github.io/dev-portfolio/blog/docker-deployment/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/docker-deployment/</guid>
+      <guid>https://fuzzyart.github.io/dev-portfolio/blog/docker-deployment/</guid>
       <description>&lt;p&gt;Docker simplifies deployment by packaging your application with all dependencies. This guide covers containerizing apps, optimizing images, and production deployment.&lt;/p&gt;
 &lt;h2 id=&#34;why-docker&#34;&gt;Why Docker?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Problems Docker solves&lt;/strong&gt;:&lt;/p&gt;
