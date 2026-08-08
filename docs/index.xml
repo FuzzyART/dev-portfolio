@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Still a Business Card</title>
     <link>https://fuzzyart.github.io/dev-portfolio/</link>
       <atom:link href="https://fuzzyart.github.io/dev-portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <description></description>
+    <description>Still a Business Card</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://fuzzyart.github.io/dev-portfolio/media/icon_hu_eee4a95885829ab2.png</url>
-      <title></title>
+      <title>Still a Business Card</title>
       <link>https://fuzzyart.github.io/dev-portfolio/</link>
     </image>
     
