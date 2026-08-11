@@ -25,13 +25,13 @@ sections:
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
-     # cta_buttons:
+      cta_buttons:
      #   - text: View My Work
      #     url: "#projects"
      #     icon: arrow-down
-     #   - text: Get In Touch
-     #     url: "#contact"
-     #     icon: envelope
+        - text: Get In Touch
+          url: "#contact"
+          icon: envelope
     design:
       style: centered
       avatar_shape: circle
@@ -185,7 +185,7 @@ sections:
 #          dark: "#0d0d12"
 #      spacing:
 #        padding: ["4rem", "0", "4rem", "0"]
-#  
+  
 #  # Recent Blog Posts
 #  - block: collection
 #    id: blog
@@ -209,25 +209,25 @@ sections:
 #      spacing:
 #        padding: ["4rem", "0", "4rem", "0"]
 #  
-  # Contact Section
-  - block: contact-info
-    id: contact
-    content:
-      title: Get In Touch
-      subtitle: "Let's build something amazing together"
-      text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: f.duwanoff@gmail.com
-      autolink: true
-    design:
-      columns: '1'
-      background:
-        color:
-          light: "#ffffff"
-          dark: "#0d0d12"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+#  # Contact Section
+#  - block: contact-info
+#    id: contact
+#    content:
+#      title: Get In Touch
+#      subtitle: "Let's build something amazing together"
+#      text: |-
+#        I'm always interested in hearing about new projects and opportunities.
+#        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
+#      email: f.duwanoff@gmail.com
+#      autolink: true
+#    design:
+#      columns: '1'
+#      background:
+#        color:
+#          light: "#ffffff"
+#          dark: "#0d0d12"
+#      spacing:
+#        padding: ["4rem", "0", "4rem", "0"]
   
   # CTA Card
   - block: cta-card
