@@ -8,7 +8,7 @@ name:
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
+role: Applied ML Engineer | MLOps / ML Infrastructure
 email: f.duwanoff@gmail.com
 #bio: |
 #  Full-stack developer with 5+ years of experience building scalable web applications.
@@ -22,10 +22,10 @@ links:
   - icon: at-symbol
     url: mailto:f.duwanoff@gmail.com
     label: E-mail Me
-#  - icon: brands/github
-#    url: https://github.com/alexjohnson
-#  - icon: brands/linkedin
-#    url: https://www.linkedin.com/in/alexjohnson/
+  - icon: brands/github
+    url: https://github.com/FuzzyART
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/falko-duwanoff-a661a9255
 #  - icon: brands/x
 #    url: https://x.com/alexjohnson
 #

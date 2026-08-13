@@ -25,13 +25,13 @@ sections:
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
-     # cta_buttons:
-     #   - text: View My Work
-     #     url: "#projects"
-     #     icon: arrow-down
-     #   - text: Get In Touch
-     #     url: "#contact"
-     #     icon: envelope
+      cta_buttons:
+        - text: View My Work
+          url: "#projects"
+          icon: arrow-down
+        - text: Get In Touch
+          url: "#contact"
+          icon: envelope
     design:
       style: centered
       avatar_shape: circle
@@ -42,41 +42,78 @@ sections:
           dark: "#0a0a0f"
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
+
+
   
-#  # Filterable Portfolio - Alpine.js powered project filtering
-#  - block: portfolio
-#    id: projects
-#    content:
-#      title: "Featured Projects"
-#      subtitle: "A selection of my recent work"
-#      count: 0
-#      filters:
-#        folders:
-#          - projects
-#      buttons:
-#        - name: All
-#          tag: '*'
-#        - name: Full-Stack
-#          tag: Full-Stack
-#        - name: Frontend
-#          tag: Frontend
-#        - name: Backend
-#          tag: Backend
-#      default_button_index: 0
-#      # Archive link auto-shown if more projects exist than 'count' above
-#      # archive:
-#      #   enable: false  # Set to false to explicitly hide
-#      #   text: "Browse All"  # Customize text
-#      #   link: "/work/"  # Custom URL
-#    design:
-#      columns: 3
-#      background:
-#        color:
-#          light: "#ffffff"
-#          dark: "#0d0d12"
-#      spacing:
-#        padding: ["4rem", "0", "4rem", "0"]
-#  
+  # Filterable Portfolio - Alpine.js powered project filtering
+  - block: portfolio
+    id: projects
+    content:
+      title: "Featured Projects"
+      subtitle: "A selection of my recent work"
+      count: 0
+      filters:
+        folders:
+          - projects
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Full-Stack
+          tag: Full-Stack
+        - name: Frontend
+          tag: Frontend
+        - name: Backend
+          tag: Backend
+      default_button_index: 0
+      # Archive link auto-shown if more projects exist than 'count' above
+      # archive:
+      #   enable: false  # Set to false to explicitly hide
+      #   text: "Browse All"  # Customize text
+      #   link: "/work/"  # Custom URL
+    design:
+      columns: 3
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+ 
+  - block: portfolio
+    id: guides
+    content:
+      title: "Featured Guides"
+      subtitle: "A selection of my recent work"
+      count: 2
+      filters:
+        folders:
+          - guides
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Machine-Learning
+          tag: Machine-Learning
+        - name: Frontend
+          tag: Frontend
+        - name: Backend
+          tag: Backend
+        - name: Linux
+          tag: Linux
+      default_button_index: 0
+      # Archive link auto-shown if more projects exist than 'count' above
+      # archive:
+      #   enable: false  # Set to false to explicitly hide
+      #   text: "Browse All"  # Customize text
+      #   link: "/work/"  # Custom URL
+    design:
+      columns: 2
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+ 
   # Visual Tech Stack - Icons organized by category
   - block: tech-stack
     id: skills
@@ -185,30 +222,30 @@ sections:
 #          dark: "#0d0d12"
 #      spacing:
 #        padding: ["4rem", "0", "4rem", "0"]
-#  
-#  # Recent Blog Posts
-#  - block: collection
-#    id: blog
-#    content:
-#      title: Recent Posts
-#      subtitle: 'Thoughts on web development, tech, and more'
-#      text: ''
-#      filters:
-#        folders:
-#          - blog
-#        exclude_featured: false
-#      count: 3
-#      order: desc
-#    design:
-#      view: card
-#      columns: 3
-#      background:
-#        color:
-#          light: "#f5f5f5"
-#          dark: "#08080c"
-#      spacing:
-#        padding: ["4rem", "0", "4rem", "0"]
-#  
+  
+  # Recent Blog Posts
+  - block: collection
+    id: blog
+    content:
+      title: Recent Posts
+      subtitle: 'Thoughts on web development, tech, and more'
+      text: ''
+      filters:
+        folders:
+          - blog
+        exclude_featured: false
+      count: 3
+      order: desc
+    design:
+      view: card
+      columns: 3
+      background:
+        color:
+          light: "#f5f5f5"
+          dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+  
   # Contact Section
   - block: contact-info
     id: contact
