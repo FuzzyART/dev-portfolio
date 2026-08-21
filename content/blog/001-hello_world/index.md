@@ -8,6 +8,7 @@ tags:
 - experiments
 - self-hosting
 summary: "Why I built this site and what I intend to do with it."
+featured: true
 ---------------------------------------------------------------------
 
 # Hello, World
