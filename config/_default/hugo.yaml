@@ -50,6 +50,14 @@ markup:
   highlight:
     lineNos: false
 security:
+  exec:
+      allow:
+        - '^(dart-)?sass$'
+        - '^go$'
+        - '^git$'
+        - '^node$'
+        - '^postcss$'
+        - '^tailwindcss$'
   _merge: deep
 sitemap:
   _merge: deep
