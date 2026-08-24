@@ -44,80 +44,80 @@ sections:
         padding: ["6rem", "0", "4rem", "0"]
 
 
-# ------------------------------------------------------------
-# PROJECTS 
-# ------------------------------------------------------------
-  ## Filterable Portfolio - Alpine.js powered project filtering
-  #- block: portfolio
-  #  id: projects
-  #  content:
-  #    title: "Featured Projects"
-  #    subtitle: "A selection of my recent work"
-  #    count: 0
-  #    filters:
-  #      folders:
-  #        - projects
-  #    buttons:
-  #      - name: All
-  #        tag: '*'
-  #      - name: Full-Stack
-  #        tag: Full-Stack
-  #      - name: Frontend
-  #        tag: Frontend
-  #      - name: Backend
-  #        tag: Backend
-  #    default_button_index: 0
-  #    # Archive link auto-shown if more projects exist than 'count' above
-  #    # archive:
-  #    #   enable: false  # Set to false to explicitly hide
-  #    #   text: "Browse All"  # Customize text
-  #    #   link: "/work/"  # Custom URL
-  #  design:
-  #    columns: 3
-  #    background:
-  #      color:
-  #        light: "#ffffff"
-  #        dark: "#0d0d12"
-  #    spacing:
-  #      padding: ["4rem", "0", "4rem", "0"]
+## ------------------------------------------------------------
+## PROJECTS 
+## ------------------------------------------------------------
+#  # Filterable Portfolio - Alpine.js powered project filtering
+#  - block: portfolio
+#    id: projects
+#    content:
+#      title: "Featured Projects"
+#      subtitle: "A selection of my recent work"
+#      count: 0
+#      filters:
+#        folders:
+#          - projects
+#      buttons:
+#        - name: All
+#          tag: '*'
+#        - name: Full-Stack
+#          tag: Full-Stack
+#        - name: Frontend
+#          tag: Frontend
+#        - name: Backend
+#          tag: Backend
+#      default_button_index: 0
+#      # Archive link auto-shown if more projects exist than 'count' above
+#      # archive:
+#      #   enable: false  # Set to false to explicitly hide
+#      #   text: "Browse All"  # Customize text
+#      #   link: "/work/"  # Custom URL
+#    design:
+#      columns: 3
+#      background:
+#        color:
+#          light: "#ffffff"
+#          dark: "#0d0d12"
+#      spacing:
+#        padding: ["4rem", "0", "4rem", "0"]
  
 # ------------------------------------------------------------
 # GUIDES
 # ------------------------------------------------------------
- # - block: portfolio
- #   id: guides
- #   content:
- #     title: "Featured Guides"
- #     subtitle: "A selection of my recent work"
- #     count: 2
- #     filters:
- #       folders:
- #         - guides
- #     buttons:
- #       - name: All
- #         tag: '*'
- #       - name: Machine-Learning
- #         tag: Machine-Learning
- #       - name: Frontend
- #         tag: Frontend
- #       - name: Backend
- #         tag: Backend
- #       - name: Linux
- #         tag: Linux
- #     default_button_index: 0
- #     # Archive link auto-shown if more projects exist than 'count' above
- #     # archive:
- #     #   enable: false  # Set to false to explicitly hide
- #     #   text: "Browse All"  # Customize text
- #     #   link: "/work/"  # Custom URL
- #   design:
- #     columns: 2
- #     background:
- #       color:
- #         light: "#ffffff"
- #         dark: "#0d0d12"
- #     spacing:
- #       padding: ["4rem", "0", "4rem", "0"]
+  - block: portfolio
+    id: guides
+    content:
+      title: "Featured Guides"
+      subtitle: "A selection of my recent work"
+      count: 2
+      filters:
+        folders:
+          - guides
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Machine-Learning
+          tag: Machine-Learning
+        - name: Frontend
+          tag: Frontend
+        - name: Backend
+          tag: Backend
+        - name: Linux
+          tag: Linux
+      default_button_index: 0
+      # Archive link auto-shown if more projects exist than 'count' above
+      # archive:
+      #   enable: false  # Set to false to explicitly hide
+      #   text: "Browse All"  # Customize text
+      #   link: "/work/"  # Custom URL
+    design:
+      columns: 2
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
  
 # ------------------------------------------------------------
 # TECH STACK

@@ -1,0 +1,13 @@
+<div class="wasm-demo">
+    <canvas
+        id="the_canvas_id"
+        style="width:100%; height:600px; display:block;">
+    </canvas>
+</div>
+
+<script type="module">
+    import init, { start } from "/wasm/clustering/gng_dashboard.js";
+
+    await init();
+    start();
+</script>
