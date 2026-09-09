@@ -6,7 +6,8 @@
 </div>
 
 <script type="module">
-    import init, { start } from "/wasm/clustering/gng_dashboard.js";
+  <!--import init, { start } from "/wasm/clustering/gng_dashboard.js"; -->
+  import init, { start } from "{{ "wasm/clustering/gng_dashboard.js" | relURL }}"
 
     await init();
     start();
