@@ -1,0 +1,15 @@
+{
+  "name": "gng_dashboard",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "gng_dashboard_bg.wasm",
+    "gng_dashboard.js",
+    "gng_dashboard.d.ts"
+  ],
+  "main": "gng_dashboard.js",
+  "types": "gng_dashboard.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
