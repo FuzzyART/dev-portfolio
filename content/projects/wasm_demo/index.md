@@ -89,7 +89,7 @@ Currently known issues include:
 * **Run Net** does not train the model with the circles dataset.
 * The screen is not cleared when changing datasets.
 * Nodes from the previous neural gas can remain visible after changing datasets.
-* Some parameters are still missing from the interface.
+* The parameters can't be changed.
 
 These issues are known and will be addressed as development continues.
 
