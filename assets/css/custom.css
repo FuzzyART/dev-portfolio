@@ -1,0 +1,26 @@
+.hero-text-larger .text-primary-600,
+.hero-text-larger .text-primary-400,
+.hero-text-larger p:first-of-type {
+  font-size: 1.4rem !important;
+  line-height: 1.4 !important;
+}
+
+.hero-text-larger h1 {
+  font-size: clamp(2.8rem, 6vw, 5rem) !important;
+}
+
+.hero-text-larger .w-32,
+.hero-text-larger .w-40,
+.hero-text-larger .md\:w-40,
+.hero-text-larger .md\:w-64,
+.hero-text-larger .w-48,
+.hero-text-larger .w-64 {
+  width: 15rem !important;
+  height: 15rem !important;
+}
+
+.hero-text-larger .md\:w-40,
+.hero-text-larger .md\:w-64 {
+  width: 20rem !important;
+  height: 20rem !important;
+}
