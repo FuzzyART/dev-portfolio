@@ -11,8 +11,9 @@ sections:
     id: hero
     content:
       username: me
-      greeting: "Hi, I'm"
-      show_status: true
+      title: "Systems, Models & the Occasional Transistor"
+      greeting: "Systems, Models & the Occasional Transistor"
+      show_status: false
       show_scroll_indicator: true
       typewriter:
         enable: true
@@ -26,9 +27,9 @@ sections:
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-#        - text: View My Work
-#          url: "#projects"
-#          icon: arrow-down
+        - text: View My Work
+          url: "#projects"
+          icon: arrow-down
         - text: Get In Touch
           url: "#contact"
           icon: envelope
@@ -36,6 +37,7 @@ sections:
       style: centered
       avatar_shape: circle
       animations: true
+      css_class: "hero-text-larger"
       background:
         color:
           light: "#fafafa"
