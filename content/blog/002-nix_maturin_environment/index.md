@@ -41,27 +41,18 @@ The application I'm working toward is an ML application with a Rust implementati
 
 The architecture I am aiming for looks roughly like this:
 
-```text
-┌───────────────────────────────┐
-│        Python / Jupyter       │
-│                               │
-│        Python package         │
-└───────────────┬───────────────┘
-                │
-                │ PyO3
-                ▼
-┌───────────────────────────────┐
-│        Rust wrapper            │
-│                               │
-│      Python-facing API        │
-└───────────────┬───────────────┘
-                │
-                ▼
-┌───────────────────────────────┐
-│       Rust ML algorithm       │
-│                               │
-│       actual implementation   │
-└───────────────────────────────┘
+```mermaid
+flowchart TB
+
+A["Python / Jupyter
+   Python Package"]
+B["Rust wrapper
+   Python-facing API"]
+C["Rust ML algorithm
+   actual implementation"]
+
+A --> |PyO3/Maturin|B
+B --> C
 ```
 
 There are actually two related pieces of work here, and I want to keep them separate.

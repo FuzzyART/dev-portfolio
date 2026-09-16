@@ -29,29 +29,31 @@ There are, however, a few practical reasons behind this setup.
 
 The basic workflow looks like this:
 
-```text
-                     Development
-                          │
-                          ▼
-                  ┌─────────────────┐
-                  │ GitLab          │
-                  │ Self-hosted     │
-                  │ on Proxmox      │
-                  └────────┬────────┘
-                           │
-                           │ copy / sync
-                           ▼
-                  ┌─────────────────┐
-                  │ GitLab.com      │
-                  │ External backup │
-                  └────────┬────────┘
-                           │
-                           │ mirror
-                           ▼
-                  ┌─────────────────┐
-                  │ GitHub.com      │
-                  │ Public mirror   │
-                  └─────────────────┘
+
+
+```mermaid
+flowchart TB
+
+Development["`**Development**
+            Local PC`"
+           ]
+GitLab["`**Gitlab**
+        Self-hosted
+        on Proxmox`"
+      ]
+GitLab.com["`**GitLab.com**
+            external Backup`"
+          ]
+GitHub.com["`**GitHub.com**
+            Public mirror`"
+          ]
+subgraph Local
+Development -->GitLab
+end
+subgraph Cloud
+GitLab -->|sync| GitLab.com
+GitLab --->|mirror| GitHub.com
+end
 ```
 
 The self-hosted GitLab instance is where I actually work.
@@ -112,17 +114,19 @@ The synchronization should happen automatically.
 
 My workflow therefore becomes:
 
-```text
-                  I work here
-                       │
-                       ▼
-              Self-hosted GitLab
-                       │
-              ┌────────┴────────┐
-              │                 │
-              ▼                 ▼
-         GitLab.com          GitHub.com
-         backup copy         public mirror
+```mermaid
+flowchart TB
+
+A["I work here"]
+B["Self-hosted Gitlab"]
+C["Gitlab.com
+  Backup copy"]
+D["GitHub.com
+  public mirror"]
+
+A --> B
+B --> C
+B --> D
 ```
 
 I only need to work with my primary repository.
