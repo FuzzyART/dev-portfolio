@@ -10,9 +10,9 @@ status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
 role: Applied ML Engineer | MLOps / ML Infrastructure
 email: f.duwanoff@gmail.com
-#bio: |
-#  Full-stack developer with 5+ years of experience building scalable web applications.
-#  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+bio: |
+  Exploring what happens when software doesn't need the cloud. 
+  Making the most of the hardware we have left — from WebAssembly and TinyML to small local models.
 
 #affiliations:
 #  - name: Tech Corp
