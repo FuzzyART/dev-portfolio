@@ -286,11 +286,11 @@ sections:
         roles focused on intelligent systems.
             </br></br> 
 
-   #     Let's connect and discuss how I can help your team.
-   #   button:
-   #     text: 'Download Resume'
-   #     url: uploads/resume.pdf
-   #     new_tab: true
+        Let's connect and discuss how I can help your team.
+      button:
+        text: 'Download Resume'
+        url: uploads/resume.pdf
+        new_tab: true
     design:
       card:
         # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
