@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="450" x2="1600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#89008c"/>
+      <stop offset="1" stop-color="#0000ff"/>
+    </linearGradient>
+  </defs>
+  <filter id="shadow">
+    <feDropShadow dx="4" dy="4" stdDeviation="4" flood-color="black" flood-opacity="0.6"/>
+  </filter>
+  <filter id="glow">
+    <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="white" flood-opacity="0.9"/>
+  </filter>
+
+  <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+    <!-- Wide glow -->
+    <feGaussianBlur in="SourceAlpha" stdDeviation="15" result="blur1"/>
+    <feFlood flood-color="#ff00ff" flood-opacity="0.8" result="glowColor"/>
+    <feComposite in="glowColor" in2="blur1" operator="in" result="glow"/>
+    <!-- Tight glow -->
+    <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur2"/>
+    <feFlood flood-color="#ff00ff" flood-opacity="1" result="tightColor"/>
+    <feComposite in="tightColor" in2="blur2" operator="in" result="tightGlow"/>
+    <!-- Put everything together -->
+    <feMerge>
+      <feMergeNode in="glow"/>
+      <feMergeNode in="tightGlow"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <rect width="1600" height="900" fill="url(#gradient)"/>
+  <text x="80" y="80" fill="#260433" font-size="50" font-weight="bold" stroke="white" stroke-width="1" transform="rotate(-45 150,150)">
+    GUIDE
+  </text>
+
+  <text id="title" font-weight="bold" fill="#260433" x="800" y="450" font-size="100" text-anchor="middle" dominant-baseline="middle" class="title" filter="url(#neon)">
+       
+    <tspan x="800" dy="-1.0em">Building </tspan>
+    <tspan x="800" dy="1.0em">CLI Managed Containers</tspan>
+    <tspan x="800" dy="1.0em">For Jypyter Pipelines</tspan>
+  </text>
+</svg>
